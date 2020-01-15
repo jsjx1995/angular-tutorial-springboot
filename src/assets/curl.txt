@@ -1,0 +1,14 @@
+GETですべて取得するとき
+curl http://localhost:8080/
+
+GETでひとつだけ取得するとき
+curl http://localhost:8080/15
+
+DELETEでデータを1件DELETEするとき
+curl -XDELETE 'http://localhost:8080/30'
+
+POSTでデータをINSERTするとき
+curl -XPOST -H 'Content-Type: application/json' -d '{"id":"30","name":"hogehoge"}' http://localhost:8080/
+
+PUTでデータを1件UPDATEするとき
+curl -XPUT -H 'Content-Type: application/json' -d '{"id":"30","name":"hogehero"}' http://localhost:8080/
