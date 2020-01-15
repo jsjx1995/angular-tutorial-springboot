@@ -1,0 +1,4 @@
+// 使用前に、REST Clientを入れてください。
+# http://localhost:8080/
+
+GET http://localhost:8080/15

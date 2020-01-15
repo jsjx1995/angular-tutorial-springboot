@@ -1,0 +1,10 @@
+// 使用前に、REST Clientを入れてください。
+# http://localhost:8080/
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "id":"29",
+  "name": "InsertedName"
+}
